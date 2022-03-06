@@ -1,3 +1,20 @@
 kafka
+- apache-kafka install (through website)
+- pip install kafka-python
+- after installation, run ./bin/~.sh to run certain components
+    - to run kafka cluster,
+    - it needs zookeeper, kafka brokers, and kafdrop for monitoring
+- docker-compose file is useful to run above several components automatically
+
 
 flink
+- flink install (through website)
+- pip install apache-flink (to install pyflink)
+- in flink folder, there are several codes and configs
+    - example codes
+    - configuration
+    - flink run scripts like spark-submit
+        - basically it containes java (./bin/flink run examples/WordCount.jar)
+        - it can works with python (./bin/flink --python examples/WordCount.py)
+- cluster 로 실행하려면 managing 하는 component 를 실행시켜야 한다
+    - ./bin/
