@@ -3,3 +3,4 @@ configs.py
 __pycache__
 data
 trips
+.checkpoint
